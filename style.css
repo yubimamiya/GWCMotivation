@@ -1,0 +1,23 @@
+body{
+  /*how to create a gradient background:
+  https://www.w3schools.com/css/css3_gradients.asp*/
+  background-image: linear-gradient(to right, #abd26a, #9df6c7);
+  text-align: center;
+  margin: 1em;
+}
+
+#titleText{
+  /*font from Google Fonts: https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5em;
+  color:#008080;
+}
+
+.mainImages{
+  width: 20em; 
+  /*center image*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
